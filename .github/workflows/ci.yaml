@@ -20,8 +20,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: quay.io
-          username: "%env (USERNAME)%"
-          password: "%psw (PASSWORD)%"
+          username: cemtuncay+cem111
+          password: AEworkshop
 
       - name: Extract metadata (tags, labels) for Docker
         uses: docker/metadata-action@v4
